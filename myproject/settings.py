@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'layneks$<your_database_name>',
+        'NAME': 'layneks$default',
         'USER': 'layneks',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'layneks.mysql.pythonanywhere-services.com',
